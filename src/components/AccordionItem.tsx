@@ -19,7 +19,7 @@ function AccordionItem({num, title, text}: AccordionProps) {
         <div className={`container ${isOpen ? "open-border" : "" }`} onClick={handleToggle}>
             <div className="unOpen-container">
                 <h2 className={`num ${isOpen ? "open-textColor" : ""}`}>{num <= 9 ? `0${num}` : num}</h2>
-                <h2 className="title">{title}</h2>
+                <h2 className={`title ${isOpen ? "title-open" : ""}`}>{title}</h2>
                 <p className="icon" >{isOpen ? "-" : "+" }</p>
             </div>
 

@@ -28,6 +28,7 @@
 
 .text {
     padding: 1rem 0 0 3.6rem;
+    font-weight: 600;
 }
 
 .open-border {
@@ -38,6 +39,6 @@
     color: grey;
 }
 
-.open-textColor {
+.open-textColor, .title-open {
     color: rgb(9, 165, 9);
 }
